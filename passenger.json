@@ -1,0 +1,11 @@
+{
+  "name": "Roop Kumar",
+  "age": "28",
+  "gender": "Male",
+  "phone": "9656565656",
+  "email": "roop@example.com",
+  "id_type": "Aadhaar",
+  "id_number": "1234-5678-9012",
+  "father_name": "Ram Kumar",
+  "residence": "Srinagar"
+}
