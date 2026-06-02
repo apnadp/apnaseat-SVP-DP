@@ -1,0 +1,908 @@
+2026-06-02 15:41:29,391 [INFO] ApnaSeatBot — 🚀 ApnaSeat Bot started — cycling every 120 minutes
+2026-06-02 15:41:29,391 [INFO] ApnaSeatBot —    Press Ctrl+C at any time to stop gracefully
+2026-06-02 15:41:29,392 [INFO] ApnaSeatBot — 📅 Journey date range: 03-06-2026 → 06-06-2026 (4 days)
+2026-06-02 15:41:29,392 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:41:29,392 [INFO] ApnaSeatBot — EXECUTION STARTED  (Cycle 1)
+2026-06-02 15:41:29,392 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:41:29,393 [INFO] ApnaSeatBot — Start Time     : 2026-06-02 15:41:29
+2026-06-02 15:41:29,393 [INFO] ApnaSeatBot — Route          : DP → SVP
+2026-06-02 15:41:29,393 [INFO] ApnaSeatBot — Journey Dates  :
+2026-06-02 15:41:29,394 [INFO] ApnaSeatBot —   2026-06-03
+2026-06-02 15:41:29,394 [INFO] ApnaSeatBot —   2026-06-04
+2026-06-02 15:41:29,394 [INFO] ApnaSeatBot —   2026-06-05
+2026-06-02 15:41:29,394 [INFO] ApnaSeatBot —   2026-06-06
+2026-06-02 15:41:29,395 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:41:29,395 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:41:29,395 [INFO] ApnaSeatBot — Journey Date: 2026-06-03
+2026-06-02 15:41:29,395 [INFO] ApnaSeatBot — Searching buses...
+2026-06-02 15:41:29,396 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:41:29,423 [INFO] WDM — ====== WebDriver manager ======
+2026-06-02 15:41:31,139 [INFO] WDM — Driver [C:\Users\rahul\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-02 15:41:32,979 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:41:37,777 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:41:37,778 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 03-06-2026
+2026-06-02 15:41:39,295 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:41:42,703 [INFO] ApnaSeatBot —    ↳ date = '03-06-2026'
+2026-06-02 15:41:43,205 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:41:43,246 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:41:44,258 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:41:47,267 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:41:47,268 [INFO] ApnaSeatBot — 🚌 Scraping available buses …
+2026-06-02 15:41:47,277 [INFO] ApnaSeatBot —    ↳ Found 3 bus(es) via Quick Book buttons
+2026-06-02 15:41:47,321 [INFO] ApnaSeatBot —    [0] Anand Transport | dep=04:15AM | fare=9999 | seats=4 | type=Non AC AC Deluxe
+2026-06-02 15:41:47,361 [INFO] ApnaSeatBot —    [1] Anand Transport | dep=10:00PM | fare=9999 | seats=5 | type=Non AC AC Deluxe
+2026-06-02 15:41:47,409 [INFO] ApnaSeatBot —    [2] Anand Transport | dep=10:10PM | fare=9999 | seats=6 | type=Non AC AC Deluxe
+2026-06-02 15:41:47,409 [INFO] ApnaSeatBot — 🏆 Bus ranking:
+2026-06-02 15:41:47,409 [INFO] ApnaSeatBot —    #1  score=-9969.00  Anand Transport  fare=9999  seats=6
+2026-06-02 15:41:47,410 [INFO] ApnaSeatBot —    #2  score=-9970.92  Anand Transport  fare=9999  seats=4
+2026-06-02 15:41:47,410 [INFO] ApnaSeatBot —    #3  score=-9973.92  Anand Transport  fare=9999  seats=5
+2026-06-02 15:41:47,410 [INFO] ApnaSeatBot — 🚌 Will process all 3 bus(es) in ranked order
+2026-06-02 15:41:47,410 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:41:47,411 [INFO] ApnaSeatBot — 🚌 Bus 1/3: Anand Transport  dep=10:10PM  score=-9969.00
+2026-06-02 15:41:47,411 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:41:47,411 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:41:47,411 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:41:49,847 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:41:49,848 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 03-06-2026
+2026-06-02 15:41:51,295 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:41:54,649 [INFO] ApnaSeatBot —    ↳ date = '03-06-2026'
+2026-06-02 15:41:55,150 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:41:55,163 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:41:55,875 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:41:58,883 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:41:58,894 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 6'
+2026-06-02 15:41:58,894 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:41:58,909 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 6'
+2026-06-02 15:42:03,760 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:42:21,013 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:42:21,050 [INFO] ApnaSeatBot —    ↳ 7 total | 7 available
+2026-06-02 15:42:21,278 [INFO] ApnaSeatBot —    ↳ 1 seat(s) in range 1–26
+2026-06-02 15:42:21,293 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [26]
+2026-06-02 15:42:21,309 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (1/1) …
+2026-06-02 15:42:23,577 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 15:42:23,577 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:42:23,577 [INFO] ApnaSeatBot —    [1] Shyam Kumar | Port Blair | shyam109@gmail.com
+2026-06-02 15:42:23,578 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:42:25,689 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:42:25,690 [INFO] ApnaSeatBot —    ── Passenger 1: Shyam Kumar | Port Blair | shyam109@gmail.com
+2026-06-02 15:42:25,964 [INFO] ApnaSeatBot —    ↳ name[0] = 'Shyam Kumar'
+2026-06-02 15:42:26,240 [INFO] ApnaSeatBot —    ↳ father[0] = 'Vasudevan'
+2026-06-02 15:42:26,331 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:42:26,624 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-9109'
+2026-06-02 15:42:26,894 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Port Blair'
+2026-06-02 15:42:27,159 [INFO] ApnaSeatBot —    ↳ contact_name = 'Shyam Kumar'
+2026-06-02 15:42:30,490 [INFO] ApnaSeatBot —    ↳ email = 'shyam109@gmail.com'
+2026-06-02 15:42:42,920 [INFO] ApnaSeatBot —    ↳ mobile = '7356598493'
+2026-06-02 15:42:46,179 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:42:46,180 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:42:48,403 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:42:50,794 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:42:50,794 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:42:50,795 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['26']
+2026-06-02 15:42:51,669 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:42:51,670 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:42:51,670 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:42:51,670 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:42:59,955 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:42:59,955 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 03-06-2026
+2026-06-02 15:43:01,473 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:43:04,852 [INFO] ApnaSeatBot —    ↳ date = '03-06-2026'
+2026-06-02 15:43:05,380 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:43:05,395 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:43:06,130 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:43:09,149 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:43:09,181 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 5'
+2026-06-02 15:43:09,182 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:43:09,192 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 5'
+2026-06-02 15:43:14,017 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:43:31,217 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:43:31,252 [INFO] ApnaSeatBot —    ↳ 6 total | 6 available
+2026-06-02 15:43:31,451 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:43:31,451 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:43:31,451 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 1 round(s)
+2026-06-02 15:43:31,452 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 1 booking(s), 1 seat(s), 0 failure(s)
+2026-06-02 15:43:31,452 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:43:31,452 [INFO] ApnaSeatBot — 🚌 Bus 2/3: Anand Transport  dep=04:15AM  score=-9970.92
+2026-06-02 15:43:31,452 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:43:31,453 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:43:31,453 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:43:33,830 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:43:33,831 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 03-06-2026
+2026-06-02 15:43:35,323 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:43:38,676 [INFO] ApnaSeatBot —    ↳ date = '03-06-2026'
+2026-06-02 15:43:39,177 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:43:39,221 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:43:40,003 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:43:43,025 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:43:43,063 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 4'
+2026-06-02 15:43:43,064 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:43:43,076 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 4'
+2026-06-02 15:43:47,897 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:44:05,140 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:44:05,183 [INFO] ApnaSeatBot —    ↳ 5 total | 5 available
+2026-06-02 15:44:05,320 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:44:05,321 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:44:05,321 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 0 round(s)
+2026-06-02 15:44:05,321 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 0 booking(s), 0 seat(s), 0 failure(s)
+2026-06-02 15:44:05,321 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:44:05,322 [INFO] ApnaSeatBot — 🚌 Bus 3/3: Anand Transport  dep=10:00PM  score=-9973.92
+2026-06-02 15:44:05,322 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:44:05,322 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:44:05,323 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:44:07,806 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:44:07,807 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 03-06-2026
+2026-06-02 15:44:09,297 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:44:12,665 [INFO] ApnaSeatBot —    ↳ date = '03-06-2026'
+2026-06-02 15:44:13,166 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:44:13,187 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:44:13,923 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:44:16,932 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:44:16,945 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 5'
+2026-06-02 15:44:16,946 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:44:16,954 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 5'
+2026-06-02 15:44:21,793 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:44:39,059 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:44:39,208 [INFO] ApnaSeatBot —    ↳ 6 total | 6 available
+2026-06-02 15:44:40,025 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:44:40,026 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:44:40,026 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 0 round(s)
+2026-06-02 15:44:40,027 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 0 booking(s), 0 seat(s), 0 failure(s)
+2026-06-02 15:44:40,027 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:44:40,027 [INFO] ApnaSeatBot — 🏁 All buses processed!
+2026-06-02 15:44:40,028 [INFO] ApnaSeatBot —    Buses processed  : 3
+2026-06-02 15:44:40,028 [INFO] ApnaSeatBot —    Total bookings   : 1
+2026-06-02 15:44:40,028 [INFO] ApnaSeatBot —    Total seats      : 1
+2026-06-02 15:44:40,029 [INFO] ApnaSeatBot —    Failed attempts  : 0
+2026-06-02 15:44:40,029 [INFO] ApnaSeatBot —    Runtime          : 0:03:07
+2026-06-02 15:44:40,239 [INFO] ApnaSeatBot — 📋 Booking summary saved: reports\Booking_Summary_20260602.xlsx
+2026-06-02 15:44:40,240 [INFO] ApnaSeatBot — ⚠️  Review the browser and complete any pending payments manually.
+2026-06-02 15:44:46,041 [INFO] ApnaSeatBot — 🔒 Browser closed
+2026-06-02 15:44:46,042 [INFO] ApnaSeatBot — Booking completed for Journey Date: 2026-06-03
+2026-06-02 15:44:46,057 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:44:46,062 [INFO] ApnaSeatBot — Journey Date: 2026-06-04
+2026-06-02 15:44:46,067 [INFO] ApnaSeatBot — Searching buses...
+2026-06-02 15:44:46,069 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:44:46,077 [INFO] WDM — ====== WebDriver manager ======
+2026-06-02 15:44:47,104 [INFO] WDM — Driver [C:\Users\rahul\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-02 15:44:48,613 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:44:53,082 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:44:53,083 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:44:54,646 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:44:58,014 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:44:58,516 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:44:58,580 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:44:59,425 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:45:02,437 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:45:02,437 [INFO] ApnaSeatBot — 🚌 Scraping available buses …
+2026-06-02 15:45:02,446 [INFO] ApnaSeatBot —    ↳ Found 3 bus(es) via Quick Book buttons
+2026-06-02 15:45:02,494 [INFO] ApnaSeatBot —    [0] Anand Transport | dep=04:15AM | fare=9999 | seats=8 | type=Non AC AC Deluxe
+2026-06-02 15:45:02,545 [INFO] ApnaSeatBot —    [1] Anand Transport | dep=10:00PM | fare=9999 | seats=7 | type=Non AC AC Deluxe
+2026-06-02 15:45:02,590 [INFO] ApnaSeatBot —    [2] Anand Transport | dep=10:10PM | fare=9999 | seats=7 | type=Non AC AC Deluxe
+2026-06-02 15:45:02,590 [INFO] ApnaSeatBot — 🏆 Bus ranking:
+2026-06-02 15:45:02,590 [INFO] ApnaSeatBot —    #1  score=-9950.92  Anand Transport  fare=9999  seats=8
+2026-06-02 15:45:02,591 [INFO] ApnaSeatBot —    #2  score=-9963.92  Anand Transport  fare=9999  seats=7
+2026-06-02 15:45:02,591 [INFO] ApnaSeatBot —    #3  score=-9964.00  Anand Transport  fare=9999  seats=7
+2026-06-02 15:45:02,592 [INFO] ApnaSeatBot — 🚌 Will process all 3 bus(es) in ranked order
+2026-06-02 15:45:02,592 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:45:02,592 [INFO] ApnaSeatBot — 🚌 Bus 1/3: Anand Transport  dep=04:15AM  score=-9950.92
+2026-06-02 15:45:02,593 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:45:02,593 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:45:02,593 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:45:04,993 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:45:05,001 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:45:06,594 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:45:09,994 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:45:10,496 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:45:10,559 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:45:11,343 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:45:14,358 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:45:14,383 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 8'
+2026-06-02 15:45:14,384 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:45:14,396 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 8'
+2026-06-02 15:45:19,338 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:45:36,546 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:45:36,592 [INFO] ApnaSeatBot —    ↳ 9 total | 9 available
+2026-06-02 15:45:36,861 [INFO] ApnaSeatBot —    ↳ 1 seat(s) in range 1–26
+2026-06-02 15:45:36,876 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [20]
+2026-06-02 15:45:36,892 [INFO] ApnaSeatBot —    ↳ Attempting seat 20 (1/1) …
+2026-06-02 15:45:39,218 [INFO] ApnaSeatBot —    ✅ Seat 20 selected (strategy 1)
+2026-06-02 15:45:39,219 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:45:39,219 [INFO] ApnaSeatBot —    [1] Rupam Ghosh | Chidiya Tapu | rupam175@gmail.com
+2026-06-02 15:45:39,219 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:45:41,286 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:45:41,287 [INFO] ApnaSeatBot —    ── Passenger 1: Rupam Ghosh | Chidiya Tapu | rupam175@gmail.com
+2026-06-02 15:45:41,550 [INFO] ApnaSeatBot —    ↳ name[0] = 'Rupam Ghosh'
+2026-06-02 15:45:41,847 [INFO] ApnaSeatBot —    ↳ father[0] = 'Ratan Ghosh'
+2026-06-02 15:45:41,916 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:45:42,178 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-8930'
+2026-06-02 15:45:42,442 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Chidiya Tapu'
+2026-06-02 15:45:42,705 [INFO] ApnaSeatBot —    ↳ contact_name = 'Rupam Ghosh'
+2026-06-02 15:45:46,045 [INFO] ApnaSeatBot —    ↳ email = 'rupam175@gmail.com'
+2026-06-02 15:45:58,541 [INFO] ApnaSeatBot —    ↳ mobile = '8391241000'
+2026-06-02 15:46:01,799 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:46:01,799 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:46:04,300 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:46:06,662 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:46:06,663 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:46:06,664 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['20']
+2026-06-02 15:46:06,935 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:46:06,938 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:46:06,938 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:46:06,939 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:46:09,794 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:46:09,794 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:46:11,270 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:46:14,687 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:46:15,189 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:46:15,205 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:46:15,931 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:46:18,943 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:46:18,962 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 7'
+2026-06-02 15:46:18,963 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:46:18,970 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 7'
+2026-06-02 15:46:23,823 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:46:40,991 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:46:41,056 [INFO] ApnaSeatBot —    ↳ 8 total | 8 available
+2026-06-02 15:46:41,342 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:46:41,343 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:46:41,343 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 1 round(s)
+2026-06-02 15:46:41,343 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 1 booking(s), 1 seat(s), 0 failure(s)
+2026-06-02 15:46:41,344 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:46:41,344 [INFO] ApnaSeatBot — 🚌 Bus 2/3: Anand Transport  dep=10:00PM  score=-9963.92
+2026-06-02 15:46:41,344 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:46:41,344 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:46:41,345 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:46:43,737 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:46:43,738 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:46:45,267 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:46:48,606 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:46:49,106 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:46:49,120 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:46:49,958 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:46:52,966 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:46:52,980 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 7'
+2026-06-02 15:46:52,980 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:46:52,988 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 7'
+2026-06-02 15:46:58,140 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:47:15,393 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:47:15,452 [INFO] ApnaSeatBot —    ↳ 8 total | 8 available
+2026-06-02 15:47:15,676 [INFO] ApnaSeatBot —    ↳ 2 seat(s) in range 1–26
+2026-06-02 15:47:15,704 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [25, 26]
+2026-06-02 15:47:15,719 [INFO] ApnaSeatBot —    ↳ Attempting seat 25 (1/2) …
+2026-06-02 15:47:18,016 [INFO] ApnaSeatBot —    ✅ Seat 25 selected (strategy 1)
+2026-06-02 15:47:18,036 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (2/2) …
+2026-06-02 15:47:20,390 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 15:47:20,393 [INFO] ApnaSeatBot — 🎲 Generated 2 passenger(s):
+2026-06-02 15:47:20,394 [INFO] ApnaSeatBot —    [1] Nayan Roy | Buniyadabad | nayanroy125@gmail.com
+2026-06-02 15:47:20,395 [INFO] ApnaSeatBot —    [2] Anil Kumar | Port Blair | anilkumar101@gmail.com
+2026-06-02 15:47:20,396 [INFO] ApnaSeatBot — 👤 Filling details for 2 passenger(s)
+2026-06-02 15:47:22,528 [INFO] ApnaSeatBot —    ↳ Found: 3 name, 2 father, 2 id_type, 2 id_number, 2 residence
+2026-06-02 15:47:22,528 [INFO] ApnaSeatBot —    ── Passenger 1: Nayan Roy | Buniyadabad | nayanroy125@gmail.com
+2026-06-02 15:47:22,793 [INFO] ApnaSeatBot —    ↳ name[0] = 'Nayan Roy'
+2026-06-02 15:47:23,055 [INFO] ApnaSeatBot —    ↳ father[0] = 'Keshab Roy'
+2026-06-02 15:47:23,135 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:47:23,400 [INFO] ApnaSeatBot —    ↳ id_number[0] = '1567-9012-3458'
+2026-06-02 15:47:23,667 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Buniyadabad'
+2026-06-02 15:47:23,667 [INFO] ApnaSeatBot —    ── Passenger 2: Anil Kumar | Port Blair | anilkumar101@gmail.com
+2026-06-02 15:47:23,931 [INFO] ApnaSeatBot —    ↳ name[1] = 'Anil Kumar'
+2026-06-02 15:47:24,202 [INFO] ApnaSeatBot —    ↳ father[1] = 'Raghavan'
+2026-06-02 15:47:24,252 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:47:24,510 [INFO] ApnaSeatBot —    ↳ id_number[1] = '8012-4567-9101'
+2026-06-02 15:47:24,806 [INFO] ApnaSeatBot —    ↳ residence[1] = 'Port Blair'
+2026-06-02 15:47:25,071 [INFO] ApnaSeatBot —    ↳ contact_name = 'Nayan Roy'
+2026-06-02 15:47:28,455 [INFO] ApnaSeatBot —    ↳ email = 'nayanroy125@gmail.com'
+2026-06-02 15:47:40,949 [INFO] ApnaSeatBot —    ↳ mobile = '9215305179'
+2026-06-02 15:47:44,242 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:47:44,243 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:47:46,419 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:47:48,771 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:47:48,772 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:47:48,772 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['25', '26']
+2026-06-02 15:47:48,896 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (2 row(s))
+2026-06-02 15:47:48,896 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:47:48,897 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:47:48,897 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:47:51,544 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:47:51,545 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:47:53,474 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:47:56,924 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:47:57,425 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:47:57,468 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:47:58,401 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:48:01,443 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:48:01,520 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 5'
+2026-06-02 15:48:01,521 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:48:01,565 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 5'
+2026-06-02 15:48:06,717 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:48:23,988 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:48:24,134 [INFO] ApnaSeatBot —    ↳ 6 total | 6 available
+2026-06-02 15:48:25,698 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:48:25,698 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:48:25,699 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 1 round(s)
+2026-06-02 15:48:25,699 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 1 booking(s), 2 seat(s), 0 failure(s)
+2026-06-02 15:48:25,700 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:48:25,700 [INFO] ApnaSeatBot — 🚌 Bus 3/3: Anand Transport  dep=10:10PM  score=-9964.00
+2026-06-02 15:48:25,700 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:48:25,701 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:48:25,702 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:48:28,493 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:48:28,493 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:48:30,589 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:48:34,122 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:48:34,623 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:48:34,688 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:48:35,512 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:48:38,540 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:48:38,587 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 7'
+2026-06-02 15:48:38,588 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:48:38,609 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 7'
+2026-06-02 15:48:43,855 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:49:01,089 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:49:01,123 [INFO] ApnaSeatBot —    ↳ 8 total | 8 available
+2026-06-02 15:49:01,438 [INFO] ApnaSeatBot —    ↳ 2 seat(s) in range 1–26
+2026-06-02 15:49:01,488 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [22]
+2026-06-02 15:49:01,514 [INFO] ApnaSeatBot —    ↳ Attempting seat 22 (1/1) …
+2026-06-02 15:49:03,784 [INFO] ApnaSeatBot —    ✅ Seat 22 selected (strategy 1)
+2026-06-02 15:49:03,785 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:49:03,785 [INFO] ApnaSeatBot —    [1] Arup Das | Nayagaon | arupdas127@gmail.com
+2026-06-02 15:49:03,785 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:49:05,856 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:49:05,857 [INFO] ApnaSeatBot —    ── Passenger 1: Arup Das | Nayagaon | arupdas127@gmail.com
+2026-06-02 15:49:06,124 [INFO] ApnaSeatBot —    ↳ name[0] = 'Arup Das'
+2026-06-02 15:49:06,392 [INFO] ApnaSeatBot —    ↳ father[0] = 'Narayan Das'
+2026-06-02 15:49:06,469 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:49:06,728 [INFO] ApnaSeatBot —    ↳ id_number[0] = '3789-1234-5670'
+2026-06-02 15:49:06,986 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Nayagaon'
+2026-06-02 15:49:07,254 [INFO] ApnaSeatBot —    ↳ contact_name = 'Arup Das'
+2026-06-02 15:49:10,650 [INFO] ApnaSeatBot —    ↳ email = 'arupdas127@gmail.com'
+2026-06-02 15:49:23,178 [INFO] ApnaSeatBot —    ↳ mobile = '7452303743'
+2026-06-02 15:49:26,454 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:49:26,454 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:49:28,637 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:49:31,016 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:49:31,017 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:49:31,017 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['22']
+2026-06-02 15:49:31,154 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:49:31,155 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:49:31,155 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:49:31,156 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:49:33,698 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:49:33,699 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:49:35,354 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:49:38,781 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:49:39,282 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:49:39,297 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:49:40,160 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:49:43,172 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:49:43,187 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 6'
+2026-06-02 15:49:43,188 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:49:43,194 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 6'
+2026-06-02 15:49:47,999 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:50:05,219 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:50:05,255 [INFO] ApnaSeatBot —    ↳ 7 total | 7 available
+2026-06-02 15:50:05,478 [INFO] ApnaSeatBot —    ↳ 1 seat(s) in range 1–26
+2026-06-02 15:50:05,495 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [24]
+2026-06-02 15:50:05,512 [INFO] ApnaSeatBot —    ↳ Attempting seat 24 (1/1) …
+2026-06-02 15:50:07,794 [INFO] ApnaSeatBot —    ✅ Seat 24 selected (strategy 1)
+2026-06-02 15:50:07,795 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:50:07,795 [INFO] ApnaSeatBot —    [1] Pritam Roy | Pahargaon | pritamroy144@gmail.com
+2026-06-02 15:50:07,796 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:50:09,868 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:50:09,868 [INFO] ApnaSeatBot —    ── Passenger 1: Pritam Roy | Pahargaon | pritamroy144@gmail.com
+2026-06-02 15:50:10,141 [INFO] ApnaSeatBot —    ↳ name[0] = 'Pritam Roy'
+2026-06-02 15:50:10,415 [INFO] ApnaSeatBot —    ↳ father[0] = 'Sukhen Roy'
+2026-06-02 15:50:10,492 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:50:10,784 [INFO] ApnaSeatBot —    ↳ id_number[0] = '2456-8901-2349'
+2026-06-02 15:50:11,047 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Pahargaon'
+2026-06-02 15:50:11,308 [INFO] ApnaSeatBot —    ↳ contact_name = 'Pritam Roy'
+2026-06-02 15:50:14,605 [INFO] ApnaSeatBot —    ↳ email = 'pritamroy144@gmail.com'
+2026-06-02 15:50:27,064 [INFO] ApnaSeatBot —    ↳ mobile = '8288581876'
+2026-06-02 15:50:30,350 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:50:30,350 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:50:32,590 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:50:34,987 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:50:34,988 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:50:34,988 [INFO] ApnaSeatBot —    ✅ Round 2 booked: seats ['24']
+2026-06-02 15:50:35,097 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:50:35,187 [INFO] ApnaSeatBot —    📍 Round 3 for Anand Transport
+2026-06-02 15:50:35,187 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:50:35,187 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:50:37,644 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:50:37,645 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 04-06-2026
+2026-06-02 15:50:39,362 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:50:42,756 [INFO] ApnaSeatBot —    ↳ date = '04-06-2026'
+2026-06-02 15:50:43,257 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:50:43,272 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:50:44,037 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:50:47,047 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:50:47,060 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 5'
+2026-06-02 15:50:47,061 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:50:47,066 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 5'
+2026-06-02 15:50:51,923 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:51:09,147 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:51:09,178 [INFO] ApnaSeatBot —    ↳ 6 total | 6 available
+2026-06-02 15:51:09,357 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:51:09,358 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:51:09,358 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 2 round(s)
+2026-06-02 15:51:09,359 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 2 booking(s), 2 seat(s), 0 failure(s)
+2026-06-02 15:51:09,359 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:51:09,359 [INFO] ApnaSeatBot — 🏁 All buses processed!
+2026-06-02 15:51:09,359 [INFO] ApnaSeatBot —    Buses processed  : 3
+2026-06-02 15:51:09,360 [INFO] ApnaSeatBot —    Total bookings   : 4
+2026-06-02 15:51:09,360 [INFO] ApnaSeatBot —    Total seats      : 5
+2026-06-02 15:51:09,360 [INFO] ApnaSeatBot —    Failed attempts  : 0
+2026-06-02 15:51:09,361 [INFO] ApnaSeatBot —    Runtime          : 0:06:20
+2026-06-02 15:51:09,441 [INFO] ApnaSeatBot — 📋 Booking summary saved: reports\Booking_Summary_20260602.xlsx
+2026-06-02 15:51:09,441 [INFO] ApnaSeatBot — ⚠️  Review the browser and complete any pending payments manually.
+2026-06-02 15:51:11,838 [INFO] ApnaSeatBot — 🔒 Browser closed
+2026-06-02 15:51:11,839 [INFO] ApnaSeatBot — Booking completed for Journey Date: 2026-06-04
+2026-06-02 15:51:11,839 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:51:11,840 [INFO] ApnaSeatBot — Journey Date: 2026-06-05
+2026-06-02 15:51:11,840 [INFO] ApnaSeatBot — Searching buses...
+2026-06-02 15:51:11,840 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 15:51:11,841 [INFO] WDM — ====== WebDriver manager ======
+2026-06-02 15:51:12,845 [INFO] WDM — Driver [C:\Users\rahul\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-02 15:51:14,302 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:51:18,883 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:51:18,883 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:51:20,470 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:51:23,846 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:51:24,347 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:51:24,364 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:51:24,732 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:51:27,763 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:51:27,764 [INFO] ApnaSeatBot — 🚌 Scraping available buses …
+2026-06-02 15:51:27,789 [INFO] ApnaSeatBot —    ↳ Found 3 bus(es) via Quick Book buttons
+2026-06-02 15:51:27,874 [INFO] ApnaSeatBot —    [0] Anand Transport | dep=04:15AM | fare=9999 | seats=10 | type=Non AC AC Deluxe
+2026-06-02 15:51:27,918 [INFO] ApnaSeatBot —    [1] Anand Transport | dep=10:00PM | fare=9999 | seats=8 | type=Non AC AC Deluxe
+2026-06-02 15:51:27,960 [INFO] ApnaSeatBot —    [2] Anand Transport | dep=10:10PM | fare=9999 | seats=11 | type=Non AC AC Deluxe
+2026-06-02 15:51:27,960 [INFO] ApnaSeatBot — 🏆 Bus ranking:
+2026-06-02 15:51:27,961 [INFO] ApnaSeatBot —    #1  score=-9940.92  Anand Transport  fare=9999  seats=10
+2026-06-02 15:51:27,961 [INFO] ApnaSeatBot —    #2  score=-9944.00  Anand Transport  fare=9999  seats=11
+2026-06-02 15:51:27,961 [INFO] ApnaSeatBot —    #3  score=-9958.92  Anand Transport  fare=9999  seats=8
+2026-06-02 15:51:27,962 [INFO] ApnaSeatBot — 🚌 Will process all 3 bus(es) in ranked order
+2026-06-02 15:51:27,962 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:51:27,962 [INFO] ApnaSeatBot — 🚌 Bus 1/3: Anand Transport  dep=04:15AM  score=-9940.92
+2026-06-02 15:51:27,962 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:51:27,963 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:51:27,963 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:51:30,356 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:51:30,357 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:51:31,832 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:51:35,194 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:51:35,695 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:51:35,747 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:51:36,473 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:51:39,486 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:51:39,507 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 10'
+2026-06-02 15:51:39,507 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:51:39,519 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 10'
+2026-06-02 15:51:44,428 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:52:01,647 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:52:01,708 [INFO] ApnaSeatBot —    ↳ 11 total | 11 available
+2026-06-02 15:52:02,027 [INFO] ApnaSeatBot —    ↳ 3 seat(s) in range 1–26
+2026-06-02 15:52:02,075 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [22]
+2026-06-02 15:52:02,090 [INFO] ApnaSeatBot —    ↳ Attempting seat 22 (1/1) …
+2026-06-02 15:52:04,424 [INFO] ApnaSeatBot —    ✅ Seat 22 selected (strategy 1)
+2026-06-02 15:52:04,425 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:52:04,425 [INFO] ApnaSeatBot —    [1] Arup Das | Nayagaon | arupdas127@gmail.com
+2026-06-02 15:52:04,425 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:52:06,520 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:52:06,520 [INFO] ApnaSeatBot —    ── Passenger 1: Arup Das | Nayagaon | arupdas127@gmail.com
+2026-06-02 15:52:06,781 [INFO] ApnaSeatBot —    ↳ name[0] = 'Arup Das'
+2026-06-02 15:52:07,043 [INFO] ApnaSeatBot —    ↳ father[0] = 'Narayan Das'
+2026-06-02 15:52:07,107 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:52:07,373 [INFO] ApnaSeatBot —    ↳ id_number[0] = '3789-1234-5670'
+2026-06-02 15:52:07,631 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Nayagaon'
+2026-06-02 15:52:07,893 [INFO] ApnaSeatBot —    ↳ contact_name = 'Arup Das'
+2026-06-02 15:52:11,195 [INFO] ApnaSeatBot —    ↳ email = 'arupdas127@gmail.com'
+2026-06-02 15:52:23,602 [INFO] ApnaSeatBot —    ↳ mobile = '6298244001'
+2026-06-02 15:52:26,890 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:52:26,891 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:52:29,246 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:52:31,606 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:52:31,608 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:52:31,608 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['22']
+2026-06-02 15:52:31,728 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:52:31,729 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:52:31,730 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:52:31,730 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:52:40,376 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:52:40,376 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:52:41,836 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:52:45,248 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:52:45,749 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:52:45,766 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:52:46,542 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:52:49,556 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:52:49,572 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 9'
+2026-06-02 15:52:49,573 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:52:49,581 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 9'
+2026-06-02 15:52:54,403 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:53:11,606 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:53:11,650 [INFO] ApnaSeatBot —    ↳ 10 total | 10 available
+2026-06-02 15:53:11,932 [INFO] ApnaSeatBot —    ↳ 2 seat(s) in range 1–26
+2026-06-02 15:53:11,963 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [24]
+2026-06-02 15:53:11,979 [INFO] ApnaSeatBot —    ↳ Attempting seat 24 (1/1) …
+2026-06-02 15:53:14,247 [INFO] ApnaSeatBot —    ✅ Seat 24 selected (strategy 1)
+2026-06-02 15:53:14,247 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:53:14,248 [INFO] ApnaSeatBot —    [1] Rajesh Mondal | Dollygunj | rajeshmondal104@gmail.com
+2026-06-02 15:53:14,248 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:53:16,323 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:53:16,323 [INFO] ApnaSeatBot —    ── Passenger 1: Rajesh Mondal | Dollygunj | rajeshmondal104@gmail.com
+2026-06-02 15:53:16,588 [INFO] ApnaSeatBot —    ↳ name[0] = 'Rajesh Mondal'
+2026-06-02 15:53:16,878 [INFO] ApnaSeatBot —    ↳ father[0] = 'Anil Mondal'
+2026-06-02 15:53:16,938 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:53:17,207 [INFO] ApnaSeatBot —    ↳ id_number[0] = '7456-8901-2345'
+2026-06-02 15:53:17,469 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Dollygunj'
+2026-06-02 15:53:17,743 [INFO] ApnaSeatBot —    ↳ contact_name = 'Rajesh Mondal'
+2026-06-02 15:53:21,030 [INFO] ApnaSeatBot —    ↳ email = 'rajeshmondal104@gmail.com'
+2026-06-02 15:53:33,535 [INFO] ApnaSeatBot —    ↳ mobile = '8485528322'
+2026-06-02 15:53:36,827 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:53:36,827 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:53:39,051 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:53:41,520 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:53:41,520 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:53:41,521 [INFO] ApnaSeatBot —    ✅ Round 2 booked: seats ['24']
+2026-06-02 15:53:41,625 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:53:41,626 [INFO] ApnaSeatBot —    📍 Round 3 for Anand Transport
+2026-06-02 15:53:41,626 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:53:41,626 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:53:44,099 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:53:44,099 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:53:45,550 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:53:48,965 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:53:49,465 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:53:49,518 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:53:50,293 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:53:53,314 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:53:53,344 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 8'
+2026-06-02 15:53:53,345 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:53:53,357 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 8'
+2026-06-02 15:53:58,195 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:54:15,707 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:54:16,977 [INFO] ApnaSeatBot —    ↳ 9 total | 9 available
+2026-06-02 15:54:18,539 [INFO] ApnaSeatBot —    ↳ 1 seat(s) in range 1–26
+2026-06-02 15:54:18,665 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [26]
+2026-06-02 15:54:18,758 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (1/1) …
+2026-06-02 15:54:21,200 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 15:54:21,201 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:54:21,202 [INFO] ApnaSeatBot —    [1] Arindam Roy | South Point | arindamroy108@gmail.com
+2026-06-02 15:54:21,202 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:54:23,461 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:54:23,461 [INFO] ApnaSeatBot —    ── Passenger 1: Arindam Roy | South Point | arindamroy108@gmail.com
+2026-06-02 15:54:23,909 [INFO] ApnaSeatBot —    ↳ name[0] = 'Arindam Roy'
+2026-06-02 15:54:24,406 [INFO] ApnaSeatBot —    ↳ father[0] = 'Dilip Roy'
+2026-06-02 15:54:24,746 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:54:25,232 [INFO] ApnaSeatBot —    ↳ id_number[0] = '2890-2345-6789'
+2026-06-02 15:54:25,665 [INFO] ApnaSeatBot —    ↳ residence[0] = 'South Point'
+2026-06-02 15:54:26,217 [INFO] ApnaSeatBot —    ↳ contact_name = 'Arindam Roy'
+2026-06-02 15:54:29,812 [INFO] ApnaSeatBot —    ↳ email = 'arindamroy108@gmail.com'
+2026-06-02 15:54:42,615 [INFO] ApnaSeatBot —    ↳ mobile = '9374210755'
+2026-06-02 15:54:46,789 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:54:46,790 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:54:54,205 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:54:56,937 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:54:56,938 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:54:56,938 [INFO] ApnaSeatBot —    ✅ Round 3 booked: seats ['26']
+2026-06-02 15:54:57,693 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:54:57,693 [INFO] ApnaSeatBot —    📍 Round 4 for Anand Transport
+2026-06-02 15:54:57,694 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:54:57,694 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:55:05,959 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:55:05,960 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:55:08,092 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:55:11,596 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:55:12,097 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:55:12,174 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:55:13,360 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:55:16,388 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:55:16,444 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 7'
+2026-06-02 15:55:16,444 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:55:16,472 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 7'
+2026-06-02 15:55:21,378 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:55:38,520 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:55:38,556 [INFO] ApnaSeatBot —    ↳ 8 total | 8 available
+2026-06-02 15:55:38,789 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:55:38,789 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:55:38,790 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 3 round(s)
+2026-06-02 15:55:38,790 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 3 booking(s), 3 seat(s), 0 failure(s)
+2026-06-02 15:55:38,790 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:55:38,791 [INFO] ApnaSeatBot — 🚌 Bus 2/3: Anand Transport  dep=10:10PM  score=-9944.00
+2026-06-02 15:55:38,791 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:55:38,791 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:55:38,791 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:55:41,192 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:55:41,192 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:55:42,660 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:55:46,033 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:55:46,534 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:55:46,585 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:55:47,284 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:55:50,292 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:55:50,305 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 11'
+2026-06-02 15:55:50,306 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:55:50,312 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 11'
+2026-06-02 15:55:55,214 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:56:12,460 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:56:12,507 [INFO] ApnaSeatBot —    ↳ 12 total | 12 available
+2026-06-02 15:56:12,863 [INFO] ApnaSeatBot —    ↳ 4 seat(s) in range 1–26
+2026-06-02 15:56:12,923 [INFO] ApnaSeatBot —    ↳ Full consecutive block found: [23, 24, 25, 26]
+2026-06-02 15:56:12,940 [INFO] ApnaSeatBot —    ↳ Attempting seat 23 (1/4) …
+2026-06-02 15:56:15,204 [INFO] ApnaSeatBot —    ✅ Seat 23 selected (strategy 1)
+2026-06-02 15:56:15,234 [INFO] ApnaSeatBot —    ↳ Attempting seat 24 (2/4) …
+2026-06-02 15:56:17,485 [INFO] ApnaSeatBot —    ✅ Seat 24 selected (strategy 1)
+2026-06-02 15:56:17,513 [INFO] ApnaSeatBot —    ↳ Attempting seat 25 (3/4) …
+2026-06-02 15:56:19,762 [INFO] ApnaSeatBot —    ✅ Seat 25 selected (strategy 1)
+2026-06-02 15:56:19,778 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (4/4) …
+2026-06-02 15:56:22,024 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 15:56:22,025 [INFO] ApnaSeatBot — 🎲 Generated 4 passenger(s):
+2026-06-02 15:56:22,025 [INFO] ApnaSeatBot —    [1] Praveen Raj | Port Blair | praveen005@gmail.com
+2026-06-02 15:56:22,025 [INFO] ApnaSeatBot —    [2] Jithin Raj | Port Blair | jithin112@gmail.com
+2026-06-02 15:56:22,025 [INFO] ApnaSeatBot —    [3] Shubham Ghosh | Bharatpur | shubhamghosh142@gmail.com
+2026-06-02 15:56:22,026 [INFO] ApnaSeatBot —    [4] Koushik Dey | Chidiya Tapu | koushik177@gmail.com
+2026-06-02 15:56:22,026 [INFO] ApnaSeatBot — 👤 Filling details for 4 passenger(s)
+2026-06-02 15:56:24,166 [INFO] ApnaSeatBot —    ↳ Found: 5 name, 4 father, 4 id_type, 4 id_number, 4 residence
+2026-06-02 15:56:24,166 [INFO] ApnaSeatBot —    ── Passenger 1: Praveen Raj | Port Blair | praveen005@gmail.com
+2026-06-02 15:56:24,440 [INFO] ApnaSeatBot —    ↳ name[0] = 'Praveen Raj'
+2026-06-02 15:56:24,717 [INFO] ApnaSeatBot —    ↳ father[0] = 'Selvaraj'
+2026-06-02 15:56:24,799 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:56:25,071 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-9005'
+2026-06-02 15:56:25,336 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Port Blair'
+2026-06-02 15:56:25,336 [INFO] ApnaSeatBot —    ── Passenger 2: Jithin Raj | Port Blair | jithin112@gmail.com
+2026-06-02 15:56:25,686 [INFO] ApnaSeatBot —    ↳ name[1] = 'Jithin Raj'
+2026-06-02 15:56:25,980 [INFO] ApnaSeatBot —    ↳ father[1] = 'Mohanan'
+2026-06-02 15:56:26,040 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:56:26,305 [INFO] ApnaSeatBot —    ↳ id_number[1] = '8012-4567-9112'
+2026-06-02 15:56:26,567 [INFO] ApnaSeatBot —    ↳ residence[1] = 'Port Blair'
+2026-06-02 15:56:26,567 [INFO] ApnaSeatBot —    ── Passenger 3: Shubham Ghosh | Bharatpur | shubhamghosh142@gmail.com
+2026-06-02 15:56:26,858 [INFO] ApnaSeatBot —    ↳ name[2] = 'Shubham Ghosh'
+2026-06-02 15:56:27,129 [INFO] ApnaSeatBot —    ↳ father[2] = 'Dilip Ghosh'
+2026-06-02 15:56:27,183 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:56:27,448 [INFO] ApnaSeatBot —    ↳ id_number[2] = '9234-6789-0127'
+2026-06-02 15:56:27,705 [INFO] ApnaSeatBot —    ↳ residence[2] = 'Bharatpur'
+2026-06-02 15:56:27,705 [INFO] ApnaSeatBot —    ── Passenger 4: Koushik Dey | Chidiya Tapu | koushik177@gmail.com
+2026-06-02 15:56:28,011 [INFO] ApnaSeatBot —    ↳ name[3] = 'Koushik Dey'
+2026-06-02 15:56:28,336 [INFO] ApnaSeatBot —    ↳ father[3] = 'Narayan Dey'
+2026-06-02 15:56:28,449 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:56:28,771 [INFO] ApnaSeatBot —    ↳ id_number[3] = '8012-4567-8932'
+2026-06-02 15:56:29,030 [INFO] ApnaSeatBot —    ↳ residence[3] = 'Chidiya Tapu'
+2026-06-02 15:56:29,296 [INFO] ApnaSeatBot —    ↳ contact_name = 'Praveen Raj'
+2026-06-02 15:56:32,669 [INFO] ApnaSeatBot —    ↳ email = 'praveen005@gmail.com'
+2026-06-02 15:56:45,164 [INFO] ApnaSeatBot —    ↳ mobile = '7631540367'
+2026-06-02 15:56:48,449 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:56:48,450 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:56:50,581 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:56:52,935 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:56:52,935 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:56:52,935 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['23', '24', '25', '26']
+2026-06-02 15:56:53,022 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (4 row(s))
+2026-06-02 15:56:53,023 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:56:53,024 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:56:53,024 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:56:56,096 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:56:56,097 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:56:57,573 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:57:01,018 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:57:01,520 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:57:01,574 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:57:02,304 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:57:05,316 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:57:05,332 [INFO] ApnaSeatBot —    ↳ Re-opening bus [2] 'Quick Book 7'
+2026-06-02 15:57:05,332 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:57:05,337 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 7'
+2026-06-02 15:57:10,237 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:57:27,491 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:57:27,543 [INFO] ApnaSeatBot —    ↳ 8 total | 8 available
+2026-06-02 15:57:27,777 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 15:57:27,778 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 15:57:27,778 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 1 round(s)
+2026-06-02 15:57:27,778 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 1 booking(s), 4 seat(s), 0 failure(s)
+2026-06-02 15:57:27,779 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 15:57:27,779 [INFO] ApnaSeatBot — 🚌 Bus 3/3: Anand Transport  dep=10:00PM  score=-9958.92
+2026-06-02 15:57:27,779 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 15:57:27,779 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:57:27,780 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:57:30,169 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:57:30,169 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:57:31,619 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:57:34,994 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:57:35,494 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:57:35,506 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:57:36,250 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:57:39,283 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:57:39,318 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 8'
+2026-06-02 15:57:39,318 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:57:39,327 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 8'
+2026-06-02 15:57:44,178 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:58:01,369 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:58:01,406 [INFO] ApnaSeatBot —    ↳ 9 total | 9 available
+2026-06-02 15:58:01,650 [INFO] ApnaSeatBot —    ↳ 3 seat(s) in range 1–26
+2026-06-02 15:58:01,693 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [25, 26]
+2026-06-02 15:58:01,708 [INFO] ApnaSeatBot —    ↳ Attempting seat 25 (1/2) …
+2026-06-02 15:58:03,966 [INFO] ApnaSeatBot —    ✅ Seat 25 selected (strategy 1)
+2026-06-02 15:58:03,985 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (2/2) …
+2026-06-02 15:58:06,246 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 15:58:06,247 [INFO] ApnaSeatBot — 🎲 Generated 2 passenger(s):
+2026-06-02 15:58:06,248 [INFO] ApnaSeatBot —    [1] Suresh Babu | Port Blair | sureshbabu003@gmail.com
+2026-06-02 15:58:06,249 [INFO] ApnaSeatBot —    [2] Ritwick Sen | Chidiya Tapu | ritwick197@gmail.com
+2026-06-02 15:58:06,250 [INFO] ApnaSeatBot — 👤 Filling details for 2 passenger(s)
+2026-06-02 15:58:08,402 [INFO] ApnaSeatBot —    ↳ Found: 3 name, 2 father, 2 id_type, 2 id_number, 2 residence
+2026-06-02 15:58:08,402 [INFO] ApnaSeatBot —    ── Passenger 1: Suresh Babu | Port Blair | sureshbabu003@gmail.com
+2026-06-02 15:58:08,743 [INFO] ApnaSeatBot —    ↳ name[0] = 'Suresh Babu'
+2026-06-02 15:58:09,042 [INFO] ApnaSeatBot —    ↳ father[0] = 'Perumal'
+2026-06-02 15:58:09,107 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:58:09,370 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-9003'
+2026-06-02 15:58:09,627 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Port Blair'
+2026-06-02 15:58:09,627 [INFO] ApnaSeatBot —    ── Passenger 2: Ritwick Sen | Chidiya Tapu | ritwick197@gmail.com
+2026-06-02 15:58:09,891 [INFO] ApnaSeatBot —    ↳ name[1] = 'Ritwick Sen'
+2026-06-02 15:58:10,147 [INFO] ApnaSeatBot —    ↳ father[1] = 'Pankaj Sen'
+2026-06-02 15:58:10,214 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:58:10,502 [INFO] ApnaSeatBot —    ↳ id_number[1] = '8012-4567-8952'
+2026-06-02 15:58:10,771 [INFO] ApnaSeatBot —    ↳ residence[1] = 'Chidiya Tapu'
+2026-06-02 15:58:11,075 [INFO] ApnaSeatBot —    ↳ contact_name = 'Suresh Babu'
+2026-06-02 15:58:14,422 [INFO] ApnaSeatBot —    ↳ email = 'sureshbabu003@gmail.com'
+2026-06-02 15:58:26,935 [INFO] ApnaSeatBot —    ↳ mobile = '8362721651'
+2026-06-02 15:58:30,261 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:58:30,261 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:58:32,349 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:58:34,738 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:58:34,739 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:58:34,739 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['25', '26']
+2026-06-02 15:58:34,837 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (2 row(s))
+2026-06-02 15:58:34,838 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 15:58:34,838 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:58:34,838 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:58:37,351 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:58:37,352 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:58:38,801 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:58:42,160 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:58:42,661 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:58:42,694 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:58:43,468 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:58:46,480 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:58:46,495 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 6'
+2026-06-02 15:58:46,495 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:58:46,500 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 6'
+2026-06-02 15:58:51,309 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 15:59:08,591 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 15:59:08,636 [INFO] ApnaSeatBot —    ↳ 7 total | 7 available
+2026-06-02 15:59:08,841 [INFO] ApnaSeatBot —    ↳ 1 seat(s) in range 1–26
+2026-06-02 15:59:08,858 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [22]
+2026-06-02 15:59:08,875 [INFO] ApnaSeatBot —    ↳ Attempting seat 22 (1/1) …
+2026-06-02 15:59:11,159 [INFO] ApnaSeatBot —    ✅ Seat 22 selected (strategy 1)
+2026-06-02 15:59:11,159 [INFO] ApnaSeatBot — 🎲 Generated 1 passenger(s):
+2026-06-02 15:59:11,160 [INFO] ApnaSeatBot —    [1] Vinoth Kumar | Port Blair | vinoth014@gmail.com
+2026-06-02 15:59:11,160 [INFO] ApnaSeatBot — 👤 Filling details for 1 passenger(s)
+2026-06-02 15:59:13,251 [INFO] ApnaSeatBot —    ↳ Found: 2 name, 1 father, 1 id_type, 1 id_number, 1 residence
+2026-06-02 15:59:13,251 [INFO] ApnaSeatBot —    ── Passenger 1: Vinoth Kumar | Port Blair | vinoth014@gmail.com
+2026-06-02 15:59:13,515 [INFO] ApnaSeatBot —    ↳ name[0] = 'Vinoth Kumar'
+2026-06-02 15:59:13,780 [INFO] ApnaSeatBot —    ↳ father[0] = 'Balasubramanian'
+2026-06-02 15:59:13,849 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 15:59:14,108 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-9014'
+2026-06-02 15:59:14,380 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Port Blair'
+2026-06-02 15:59:14,642 [INFO] ApnaSeatBot —    ↳ contact_name = 'Vinoth Kumar'
+2026-06-02 15:59:17,993 [INFO] ApnaSeatBot —    ↳ email = 'vinoth014@gmail.com'
+2026-06-02 15:59:30,493 [INFO] ApnaSeatBot —    ↳ mobile = '6584371536'
+2026-06-02 15:59:33,804 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 15:59:33,805 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 15:59:36,297 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 15:59:38,651 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 15:59:38,652 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 15:59:38,652 [INFO] ApnaSeatBot —    ✅ Round 2 booked: seats ['22']
+2026-06-02 15:59:38,772 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (1 row(s))
+2026-06-02 15:59:38,772 [INFO] ApnaSeatBot —    📍 Round 3 for Anand Transport
+2026-06-02 15:59:38,772 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 15:59:38,773 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 15:59:41,234 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 15:59:41,236 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 05-06-2026
+2026-06-02 15:59:42,738 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 15:59:46,091 [INFO] ApnaSeatBot —    ↳ date = '05-06-2026'
+2026-06-02 15:59:46,591 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 15:59:46,628 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 15:59:47,368 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 15:59:50,380 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 15:59:50,395 [INFO] ApnaSeatBot —    ↳ Re-opening bus [1] 'Quick Book 5'
+2026-06-02 15:59:50,396 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 15:59:50,401 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 5'
+2026-06-02 15:59:55,315 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 16:00:12,600 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 16:00:12,632 [INFO] ApnaSeatBot —    ↳ 6 total | 6 available
+2026-06-02 16:00:12,910 [INFO] ApnaSeatBot —    ↳ 0 seat(s) in range 1–26
+2026-06-02 16:00:12,911 [INFO] ApnaSeatBot —    ✅ No seats available in range 1–26 — done with this bus
+2026-06-02 16:00:12,911 [INFO] ApnaSeatBot —    ✅ Seats 1-23 exhausted for Anand Transport after 2 round(s)
+2026-06-02 16:00:12,911 [INFO] ApnaSeatBot —    🏁 Bus Anand Transport done — 2 booking(s), 3 seat(s), 0 failure(s)
+2026-06-02 16:00:12,912 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 16:00:12,912 [INFO] ApnaSeatBot — 🏁 All buses processed!
+2026-06-02 16:00:12,912 [INFO] ApnaSeatBot —    Buses processed  : 3
+2026-06-02 16:00:12,912 [INFO] ApnaSeatBot —    Total bookings   : 6
+2026-06-02 16:00:12,913 [INFO] ApnaSeatBot —    Total seats      : 10
+2026-06-02 16:00:12,913 [INFO] ApnaSeatBot —    Failed attempts  : 0
+2026-06-02 16:00:12,913 [INFO] ApnaSeatBot —    Runtime          : 0:08:58
+2026-06-02 16:00:13,000 [INFO] ApnaSeatBot — 📋 Booking summary saved: reports\Booking_Summary_20260602.xlsx
+2026-06-02 16:00:13,001 [INFO] ApnaSeatBot — ⚠️  Review the browser and complete any pending payments manually.
+2026-06-02 16:00:15,373 [INFO] ApnaSeatBot — 🔒 Browser closed
+2026-06-02 16:00:15,375 [INFO] ApnaSeatBot — Booking completed for Journey Date: 2026-06-05
+2026-06-02 16:00:15,376 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 16:00:15,377 [INFO] ApnaSeatBot — Journey Date: 2026-06-06
+2026-06-02 16:00:15,378 [INFO] ApnaSeatBot — Searching buses...
+2026-06-02 16:00:15,379 [INFO] ApnaSeatBot — ==================================================
+2026-06-02 16:00:15,383 [INFO] WDM — ====== WebDriver manager ======
+2026-06-02 16:00:16,402 [INFO] WDM — Driver [C:\Users\rahul\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-06-02 16:00:17,897 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 16:00:22,318 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 16:00:22,318 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 06-06-2026
+2026-06-02 16:00:23,818 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 16:00:27,202 [INFO] ApnaSeatBot —    ↳ date = '06-06-2026'
+2026-06-02 16:00:27,703 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 16:00:27,718 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 16:00:28,648 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 16:00:31,659 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 16:00:31,659 [INFO] ApnaSeatBot — 🚌 Scraping available buses …
+2026-06-02 16:00:31,667 [INFO] ApnaSeatBot —    ↳ Found 3 bus(es) via Quick Book buttons
+2026-06-02 16:00:31,714 [INFO] ApnaSeatBot —    [0] Anand Transport | dep=04:15AM | fare=9999 | seats=13 | type=Non AC AC Deluxe
+2026-06-02 16:00:31,757 [INFO] ApnaSeatBot —    [1] Anand Transport | dep=10:00PM | fare=9999 | seats=10 | type=Non AC AC Deluxe
+2026-06-02 16:00:31,801 [INFO] ApnaSeatBot —    [2] Anand Transport | dep=10:10PM | fare=9999 | seats=12 | type=Non AC AC Deluxe
+2026-06-02 16:00:31,802 [INFO] ApnaSeatBot — 🏆 Bus ranking:
+2026-06-02 16:00:31,802 [INFO] ApnaSeatBot —    #1  score=-9925.92  Anand Transport  fare=9999  seats=13
+2026-06-02 16:00:31,802 [INFO] ApnaSeatBot —    #2  score=-9939.00  Anand Transport  fare=9999  seats=12
+2026-06-02 16:00:31,803 [INFO] ApnaSeatBot —    #3  score=-9948.92  Anand Transport  fare=9999  seats=10
+2026-06-02 16:00:31,803 [INFO] ApnaSeatBot — 🚌 Will process all 3 bus(es) in ranked order
+2026-06-02 16:00:31,803 [INFO] ApnaSeatBot — ════════════════════════════════════════════════════════════
+2026-06-02 16:00:31,804 [INFO] ApnaSeatBot — 🚌 Bus 1/3: Anand Transport  dep=04:15AM  score=-9925.92
+2026-06-02 16:00:31,804 [INFO] ApnaSeatBot —    📍 Round 1 for Anand Transport
+2026-06-02 16:00:31,804 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 16:00:31,805 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 16:00:34,301 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 16:00:34,302 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 06-06-2026
+2026-06-02 16:00:35,764 [INFO] ApnaSeatBot —    ↳ Used quick-link button
+2026-06-02 16:00:39,208 [INFO] ApnaSeatBot —    ↳ date = '06-06-2026'
+2026-06-02 16:00:39,709 [INFO] ApnaSeatBot — 🔍 Clicking Search button …
+2026-06-02 16:00:39,745 [INFO] ApnaSeatBot —    ↳ Clicked: 'search'
+2026-06-02 16:00:40,505 [INFO] ApnaSeatBot — ⏳ Waiting for bus results …
+2026-06-02 16:00:43,513 [INFO] ApnaSeatBot — ✅ Bus results detected
+2026-06-02 16:00:43,525 [INFO] ApnaSeatBot —    ↳ Re-opening bus [0] 'Quick Book 13'
+2026-06-02 16:00:43,526 [INFO] ApnaSeatBot — 🗺️  Opening seat map for: Anand Transport
+2026-06-02 16:00:43,532 [INFO] ApnaSeatBot —    ↳ Clicking: 'Quick Book 13'
+2026-06-02 16:00:48,386 [INFO] ApnaSeatBot — 💺 Selecting 4 seat(s) from range 1–26 …
+2026-06-02 16:01:05,651 [INFO] ApnaSeatBot —    ↳ Full page HTML → seat_map_debug.html
+2026-06-02 16:01:05,813 [INFO] ApnaSeatBot —    ↳ 14 total | 14 available
+2026-06-02 16:01:06,224 [INFO] ApnaSeatBot —    ↳ 6 seat(s) in range 1–26
+2026-06-02 16:01:06,314 [INFO] ApnaSeatBot —    ↳ Best consecutive group: [25, 26]
+2026-06-02 16:01:06,328 [INFO] ApnaSeatBot —    ↳ Attempting seat 25 (1/2) …
+2026-06-02 16:01:08,618 [INFO] ApnaSeatBot —    ✅ Seat 25 selected (strategy 1)
+2026-06-02 16:01:08,711 [INFO] ApnaSeatBot —    ↳ Attempting seat 26 (2/2) …
+2026-06-02 16:01:11,047 [INFO] ApnaSeatBot —    ✅ Seat 26 selected (strategy 1)
+2026-06-02 16:01:11,048 [INFO] ApnaSeatBot — 🎲 Generated 2 passenger(s):
+2026-06-02 16:01:11,050 [INFO] ApnaSeatBot —    [1] Sukanta Roy | Chidiya Tapu | sukanta189@gmail.com
+2026-06-02 16:01:11,055 [INFO] ApnaSeatBot —    [2] Siva Kumar | Port Blair | siva024@gmail.com
+2026-06-02 16:01:11,056 [INFO] ApnaSeatBot — 👤 Filling details for 2 passenger(s)
+2026-06-02 16:01:13,164 [INFO] ApnaSeatBot —    ↳ Found: 3 name, 2 father, 2 id_type, 2 id_number, 2 residence
+2026-06-02 16:01:13,164 [INFO] ApnaSeatBot —    ── Passenger 1: Sukanta Roy | Chidiya Tapu | sukanta189@gmail.com
+2026-06-02 16:01:13,431 [INFO] ApnaSeatBot —    ↳ name[0] = 'Sukanta Roy'
+2026-06-02 16:01:13,699 [INFO] ApnaSeatBot —    ↳ father[0] = 'Shankar Roy'
+2026-06-02 16:01:13,771 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 16:01:14,039 [INFO] ApnaSeatBot —    ↳ id_number[0] = '8012-4567-8944'
+2026-06-02 16:01:14,296 [INFO] ApnaSeatBot —    ↳ residence[0] = 'Chidiya Tapu'
+2026-06-02 16:01:14,296 [INFO] ApnaSeatBot —    ── Passenger 2: Siva Kumar | Port Blair | siva024@gmail.com
+2026-06-02 16:01:14,562 [INFO] ApnaSeatBot —    ↳ name[1] = 'Siva Kumar'
+2026-06-02 16:01:14,821 [INFO] ApnaSeatBot —    ↳ father[1] = 'Chandrasekar'
+2026-06-02 16:01:14,873 [INFO] ApnaSeatBot —    ↳ id_type = 'Aadhaar'
+2026-06-02 16:01:15,132 [INFO] ApnaSeatBot —    ↳ id_number[1] = '8012-4567-9024'
+2026-06-02 16:01:15,427 [INFO] ApnaSeatBot —    ↳ residence[1] = 'Port Blair'
+2026-06-02 16:01:15,681 [INFO] ApnaSeatBot —    ↳ contact_name = 'Sukanta Roy'
+2026-06-02 16:01:19,064 [INFO] ApnaSeatBot —    ↳ email = 'sukanta189@gmail.com'
+2026-06-02 16:01:31,446 [INFO] ApnaSeatBot —    ↳ mobile = '6684380055'
+2026-06-02 16:01:34,954 [INFO] ApnaSeatBot —    ↳ Boarding Point = 'Diglipur'
+2026-06-02 16:01:34,955 [INFO] ApnaSeatBot — 💳 Clicking Confirm Payment …
+2026-06-02 16:01:37,104 [INFO] ApnaSeatBot —    ↳ Found button: 'Confirm Booking'
+2026-06-02 16:01:39,462 [INFO] ApnaSeatBot —    ✅ Confirm Payment clicked
+2026-06-02 16:01:39,463 [INFO] ApnaSeatBot — ✅ Passenger form filled
+2026-06-02 16:01:39,464 [INFO] ApnaSeatBot —    ✅ Round 1 booked: seats ['25', '26']
+2026-06-02 16:01:39,582 [INFO] ApnaSeatBot — 📊 Passenger details appended: reports\Booking_Summary_20260602.xlsx (2 row(s))
+2026-06-02 16:01:39,583 [INFO] ApnaSeatBot —    📍 Round 2 for Anand Transport
+2026-06-02 16:01:39,584 [INFO] ApnaSeatBot —    🔄 Navigating back to search results …
+2026-06-02 16:01:39,584 [INFO] ApnaSeatBot — 🌐 Opening https://apnaseat.in/
+2026-06-02 16:01:48,188 [INFO] ApnaSeatBot — ✅ Website loaded
+2026-06-02 16:01:48,190 [INFO] ApnaSeatBot — 📋 Filling form — from: DP  to: SVP  date: 06-06-2026
+2026-06-02 16:01:49,816 [INFO] ApnaSeatBot —    ↳ Used quick-link button
