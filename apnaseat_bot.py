@@ -1373,7 +1373,7 @@ class BookingWriter:
 
 # ─────────────────────────── cycle helpers ───────────────────────
 
-_WAIT_MINUTES = 120
+_WAIT_MINUTES = 30
 
 
 def _print_cycle_summary(
