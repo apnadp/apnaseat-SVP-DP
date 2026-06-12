@@ -1,15 +1,17 @@
-name: ApnaSeat Bot DP-SVP
+name: ApnaSeat Bot SVP-DP
 
 on:
   schedule:
-    - cron: '30 0 * * *'
-    - cron: '30 12 * * *'
+    - cron: '30 3 * * *'
+    - cron: '30 7 * * *'
+    - cron: '30 11 * * *'
+    - cron: '30 15 * * *'
   workflow_dispatch:
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 35
     env:
       GITHUB_ACTIONS: true
 
